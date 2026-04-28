@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #C62828;
+  margin-bottom: 30px;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #FFF;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.orderId {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.status {
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.info {
+  margin: 10px 0;
+  color: #444;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #C62828;
+  color: white;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #B71C1C;
+}
+.items {
+  margin-top: 15px;
+}
+
+.itemCard {
+  background: #FFF3E0;
+  border-left: 5px solid #C62828;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.itemName {
+  color: #333;
+}
+
+.itemQty {
+  color: #C62828;
+}
+
+.itemDetail {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+.customer {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.time {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
